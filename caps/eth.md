@@ -159,7 +159,7 @@ from their signature.
   current account nonce are valid, and to which degree 'nonce gaps' are acceptable.
 
 Implementations may enforce other validation rules for transactions. For example, it is
-common practice to reject encoded transactions larger than 128 kB.
+common practice to reject encoded transactions larger than 128 KiB.
 
 Unless noted otherwise, implementations must not disconnect peers for sending invalid
 transactions, and should simply discard them instead. This is because the peer might be
